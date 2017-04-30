@@ -26,7 +26,7 @@ void loop()
  
  distanceCM = (duration/2) / 29.1;
  
- scaledServoValue = map(distanceCM, 3, 400, 0, 180);
+ scaledServoValue = map(distanceCM, 3, 400, 15, 165);
  
  servo.write(scaledServoValue);
 }
